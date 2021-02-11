@@ -1,0 +1,18 @@
+.divLayoutAdmin {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 90px 1fr;
+  grid-template-columns: 140px 1fr;
+
+  &_body:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #29448c;
+  }
+
+  &_body:nth-child(2) {
+    display: flex;
+    background-color: #29448c;
+    border-top: solid 1px;
+  }
+}
